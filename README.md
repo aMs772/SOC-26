@@ -42,8 +42,21 @@ Followed StatQuest again for this one (videos 86 to 91).
 
 ---
 
-## What is coming next
+``Built a small neural network to identify hand written digits. The relevant code is uploaded to a branch in this repo``
 
-- Week 5 - Getting into PyTorch and learning how to build models using it
-- Week 6 - The main project: building a GPT-style language model from scratch
-- Weeks 7 and 8 - Optional extensions like fine-tuning pretrained models or building a small web app around the final model
+## week 5-6
+learnt about pytorch and transformers
+
+built my first ever transformer of 10 Million parameter approx. I used the book series ``Percy jackson and the olympians`` as my dataset in an attempt to replicate the author's tone and character traits like sarcastic, self thinking
+
+input.txt is the combined data file
+GPT.ipynb is the jupyter notebook containg the entire code
+
+The model takes about 45 minutes to train for 5000 iterations.
+
+## Results
+
+Although the gpt doesent produce perfect english sentences, it has learnt the author tone and style. The text produced is inclined towards first person, witty and sarcastic tone.
+
+
+
